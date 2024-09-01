@@ -1,0 +1,22 @@
+patch:
+  preset_color_schemes/+:
+    # ref: https://gist.github.com/zsakvo/fff6e4859265d5d629439d5ccb553f8a
+    wechat:
+      back_color: 0xFFFFFF
+      border_height: 0
+      candidate_format: '%c %@ '
+      comment_text_color: 0x999999
+      corner_radius: 5
+      hilited_candidate_back_color: 0x75B100
+      hilited_candidate_text_color: 0xFFFFFF
+      hilited_corner_radius: 5
+      horizontal: true
+      inline_preedit: true
+      label_color: 0xbbbbbb
+      name: WeChat
+      text_color: 0x424242
+  style/color_scheme: wechat
+  style/font_point: 14
+  style/horizontal: true
+  style/label_font_point: 14
+  style/layout/border_width: 2
