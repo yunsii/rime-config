@@ -18,7 +18,7 @@
 
 ### Linux
 
-经测试，最后选择了 [fcitx5-rime](https://github.com/fcitx/fcitx5-rime) 做为 Linux 下的 RIME 输入法。值得注意的是[该版本输入法 UI 由 Fcitx 控制](https://github.com/fcitx/fcitx5-rime/issues/119)。
+经测试，最后选择了 [fcitx5-rime](https://github.com/fcitx/fcitx5-rime) 做为 Linux 下的 RIME 输入法。值得注意的是[该版本输入法 UI 由 Fcitx 控制](https://github.com/fcitx/fcitx5-rime/issues/119)。由于默认的主题实在是太复古了，现在暂时先使用 [fcitx5-nord](https://github.com/tonyfettes/fcitx5-nord) 主题，之后会尝试定制一个主题。
 
 该输入法在 Linux 下默认配置文件夹为 [`~/.local/share/fcitx5/rime`](https://github.com/fcitx/fcitx5-rime/issues/61#issuecomment-1649779614)，安装方式同 Windows 下的操作。此外，如果碰到了以下情况：
 
@@ -29,7 +29,9 @@
 
 ![preedit-mode](./resources/preedit-mode.png)
 
+
 ## TODO
 
+- 定制 fcitx5 主题
 - 支持双拼编码 + 全拼编码显示
 - 支持 Node.js 脚本一键初始化
